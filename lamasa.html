@@ -3,8 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title>Lamasa</title>
+	
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#">Page 1</a>
+            </li>
+            <li>
+                <a href="#">Page 2</a>
+            </li>
+            <li>
+                <a href="#">Page 3</a>
+            </li>
+            <li>
+                <a href="#">Page 4</a>
+            </li>
+        </ul>
+    </div>
     <meta name="generator" content="Serif WebPlus X8">
-    <meta name="viewport" content="width=1350">
+    / in case of a viewport
+if (document.documentElement.clientWidth < 900) {
+// scripts --> redirect
+    window.location = "http://www.disney.com"
+}
+// in case of a screen
+if (screen.width < 900) {
+// scripts --> redirect
+    window.location = "http://www.disney.com"
+}
     <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
     <style type="text/css">
       .OBJ-1,.OBJ-1:link,.OBJ-1:visited { background-image:url('wpimages/wpfa74b582_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
